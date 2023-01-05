@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--deletestart-->
+  <link rel="stylesheet" type="text/css" href="assets/scss/main.scss"/>
+  <!--deleteend-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>WebPack-template</title>
+</head>
+
+<body>
+  <section class="home-section">
+    <div class="main-image desktop">
+      <img src="/assets/img/main-image.png" alt="">
+    </div>
+    <header class="header">
+      <div class="container flex-container">
+        <div class="logo"><img src="./assets/img/Logo.png" alt="Food" /></div>
+        <nav class="nav flex-container desktop">
+          <li class="nav-item">
+            <a href="#" class="nav-itemlink">
+              <div class="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              Home
+            </a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">Download</a></li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">Recipes</a></li>
+        </nav>
+        <button class="login-button desktop">Log in</button>
+        <button class="signin-button button desktop">Sign in</button>
+        <button class="hamburger mobile">
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
+        <ul class="menu mobile">
+          <li class="nav-item">
+            <a href="#" class="nav-itemlink">
+              Home
+            </a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">Download</a></li>
+          <li class="nav-item"><a href="#" class="nav-itemlink">Recipes</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="home__content container flex-container">
+      <div class="column content-column">
+        <h3 class="home__subheading">Food Delivery</h3>
+        <h1 class="home__title">Observe the Food Feel the Taste.</h1>
+        <p class="home__text">Add a joy of best Taste. Foodie Moments. Taste the Best that trying to tie in a space you.</p>
+        <button class="button">Order Now</button>
+      </div>
+      <div class="column mw-column mobile">
+        <img src="/assets/img/main-image.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="about-section">
+    <div class="container flex-container">
+      <div class="column">
+        <img src="/assets/img/about-image.png" alt="">
+      </div>
+      <div class="column content-column">
+        <h3 class="about__subheading">About Us</h3>
+        <h2 class="about__heading">Every Meal is a Happy Meal.</h2>
+        <p class="about__text">There are a lot of ways you can go with your tagline if you’re not trying to tie in a space.</p>
+        <button class="button button_black">learn More</button>
+      </div>
+    </div>
+  </section>
+  <section class="features-section">
+    <div class="container">
+      <div class="features__header">
+        <span class="features__subheading">FEATURES</span>
+        <h2 class="features__heading">Our Awesome Services</h2>
+      </div>
+      <div class="container flex-container">
+        <div class="feature">
+          <img src="/assets/img/Feature1.svg" alt="Easy to order" class="feature__icon">
+          <h4 class="feature__title">Easy to order</h4>
+          <p class="feature__text">Your Favourite Food delivery Partner. A Trendy Food Delivery</p>
+        </div>
+        <div class="feature">
+          <img src="/assets/img/Feature2.svg" alt="Fast Delivery" class="feature__icon">
+          <h4 class="feature__title">Fast Delivery</h4>
+          <p class="feature__text">The food at your doorstep. Best Service to fulfil your expectations.</p>
+        </div>
+        <div class="feature">
+          <img src="/assets/img/Feature3.svg" alt="Secured Payment" class="feature__icon">
+          <h4 class="feature__title">Secured Payment</h4>
+          <p class="feature__text">Our Commitment is Keeping you Safe. Pinnacle of reliability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="app-section">
+    <div class="container flex-container">
+      <div class="column content-column">
+        <h3 class="app__subheading">DOWNLOAD</h3>
+        <h2 class="app__title">Get the QFood App Just now</h2>
+        <p class="app__text">The brand has built a loyal following, largely because of its transparency and the streamlined ordering process it offers its customers.</p>
+        <div class="app__link-container">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="app__link">
+            <img src="/assets/img/AppStore.png" alt="App Store">
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="app__link">
+            <img src="/assets/img/GooglePlay.png" alt="Google Play">
+          </a>
+        </div>
+      </div>
+      <div class="column mw-column image-column">
+        <img src="/assets/img/mobile.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="recipes-section">
+    <div class="container">
+      <div class="recipes__header">
+        <span class="recipes__subheading">RECIPES</span>
+        <h2 class="recipes__heading">Choose Your Favourite Food</h2>
+      </div>
+      <div class="container flex-container">
+        <div class="recipe">
+          <div class="recipe__image-container">
+            <img src="/assets/img/Recipe1.png" alt="Franch Pazta" class="recipe__image">
+            <span class="recipe__price">$9.40</span>
+          </div>
+          <h4 class="recipe__title">Franch Pazta</h4>
+          <p class="recipe__text">The only thing we love more than with food is you.</p>
+          <button class="recipe__button button button_invert">Order Now</button>
+        </div>
+        <div class="recipe">
+          <div class="recipe__image-container">
+            <img src="/assets/img/Recipe2.png" alt="Chicken Masala" class="recipe__image">
+            <span class="recipe__price">$8.38</span>
+          </div>
+          <h4 class="recipe__title">Chicken Masala</h4>
+          <p class="recipe__text">The only thing we’re serious about is food. Eat drink love.</p>
+          <button class="recipe__button button button_invert">Order Now</button>
+        </div>
+        <div class="recipe">
+          <div class="recipe__image-container">
+            <img src="/assets/img/Recipe3.png" alt="Kacchi Biriani" class="recipe__image">
+            <span class="recipe__price">$11.40</span>
+          </div>
+          <h4 class="recipe__title">Kacchi Biriani</h4>
+          <p class="recipe__text">Come sit with us. Take a trip to chow town hasty and tasty.</p>
+          <button class="recipe__button button button_invert">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container flex-container">
+        <div class="column">
+          <div class="logo"><img src="./assets/img/Logo.png" alt="Food" /></div>
+          <p class="footer__text">Lorem ipsum dolor sit amet, consectetur elit.</p>
+          <div class="footer__social-block flex-container">
+            <a href="#" class="footer__social-link"><img src="./assets/img/fb-icon.svg" alt="" class="social-icon"></a>
+            <a href="#" class="footer__social-link"><img src="./assets/img/tw-icon.svg" alt="" class="social-icon"></a>
+            <a href="#" class="footer__social-link"><img src="./assets/img/in-icon.svg" alt="" class="social-icon"></a>
+            <a href="#" class="footer__social-link"><img src="./assets/img/wa-icon.svg" alt="" class="social-icon"></a></div>
+        </div>
+        <div class="column">
+          <span class="footer__nav-title">Our Menu</span>
+          <a href="" class="footer__nav-link">Breakfast</a>
+          <a href="" class="footer__nav-link">Lunce</a>
+          <a href="" class="footer__nav-link">Dunner</a>
+          <a href="" class="footer__nav-link">Snacks</a>
+        </div>
+        <div class="column">
+          <span class="footer__nav-title">Useful Link</span>
+          <a href="" class="footer__nav-link">Services</a>
+          <a href="" class="footer__nav-link">Support</a>
+          <a href="" class="footer__nav-link">Conditions</a>
+          <a href="" class="footer__nav-link">Security</a>
+        </div>
+        <div class="column">
+          <span class="footer__nav-title">Stay Connected</span>
+          <div class="footer__input-container">
+            <input class="footer__input" type="email" name="email" placeholder="Email Address" />
+            <button class="button footer__input-button">
+              <img src="./assets/img/send-icon.svg" alt="" />
+            </button>
+          </div>
+          <div class="footer__contact">
+            <img src="./assets/img/tel.svg" alt="" class="footer__contact-icon">
+            <a href="tel:15002582654" class="footer__nav-link">
+              Call 1 (500) 258-2654
+            </a>
+          </div>
+          <div class="footer__contact">
+            <img src="./assets/img/mail.svg" alt="" class="footer__contact-icon">
+            <a href="mailto:support@foodrs.net" class="footer__nav-link">
+              Support@foodrs.net
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <hr class="hr">
+        <span class="footer__copyright">Created with figma. By Towshif Mahir - 2021</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
